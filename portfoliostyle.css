@@ -1,0 +1,141 @@
+/* // <weight>: Use a value from 300 to 800
+// <uniquifier>: Use a unique and descriptive class name */
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* shared button */
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.header{
+background-image: url('./portfolio-resources/images/developer.png'), url('./portfolio-resources/images/header_bg.png');
+background-repeat: no-repeat;
+background-position: left top, right bottom;
+}
+/* Nav Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    color: #474747;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+
+
+
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 200px;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #474747;
+}
+.section-description{
+    margin-top: 20px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+}
+.item-title{
+    font-size:20px;
+    color: #757575;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color:#474747;
+}
