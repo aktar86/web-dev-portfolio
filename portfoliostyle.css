@@ -21,6 +21,9 @@
 .secondary-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 /* shared button */
 .btn-primary{
     background-color: #FD6E0A;
@@ -41,7 +44,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0px 200px 50px 200px;
 
 
 }
@@ -77,6 +80,7 @@ nav ul {
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 38px 0 200px;
 }
 .banner-content{
@@ -91,7 +95,8 @@ nav ul {
     font-weight: bold;
 }
 .banner-description{
-font-size: 18px;
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .banner-profile-pic{
@@ -105,12 +110,11 @@ font-size: 18px;
 main{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 100px 200px;
+    padding: 100px 170px;
 }
-
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 110px 130px;
     text-align: center;
 }
 
@@ -129,13 +133,151 @@ main{
     margin-top: 30px;
     text-align: left;
 }
+
 .item-title{
-    font-size:20px;
+    font-size:18px;
     color: #757575;
 }
 
 .item-description{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color:#474747;
+}
+
+/* skill section */
+
+.skill-title{
+    padding: 50px 100px 20px 50px;
+}
+.skill-description{
+    padding: 0 100px 50px 100px;
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    width: 200px;
+    height: 280px;
+    background-color: white;
+    padding: 10px;
+    /* border: 1px solid tomato; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.icon-image{
+    width: 44px;
+    height: 44px;
+    /* background-color: white; */
+
+}
+.react-icon{
+    width: 50px;
+    height: 45px;
+
+}
+
+.node-icon{
+    width: 40px;
+    height: 44px;
+}
+
+
+.card-title{
+    margin: 5px 0 10px;
+}
+
+/* style of resume section */
+.resume-title{
+    padding: 100px 0 50px 0;
+    font-weight: bold;
+    font-size:45px;
+}
+
+.resume-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-item{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-bottom: 1px solid #757575;
+}
+.education-title{
+    margin: 15px 0;
+}
+.resume-item p{
+    margin-top: 10px;
+}
+
+.cv-btn{
+    padding: 15px 0;
+}
+
+.remove-bottom{
+    border-bottom: none;
+}
+
+
+/* footer style here */
+.footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-icon{
+    display: flex;
+    margin-top: 10px;
+}
+.media-icon img{
+    /* margin-left: 10px; */
+    /* background-color: wheat; */
+}
+
+.icon-margin{
+    margin-left: 10px;
+}
+.media-icon img .no-margin{
+    margin-left: none;
+}
+.media-icon img{
+    cursor: pointer;
+}
+.form-container{
+
+}
+
+.social-card{
+    width: 450px;
+    height: 300px;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.input-style{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 5px;
+    height: 100px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
